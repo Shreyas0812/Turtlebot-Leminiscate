@@ -27,7 +27,7 @@ def odometryCb(msg):
 
 #getting points 
 def path():
-    a = 1
+    a = 10
     t = np.arange(0, 2*(np.pi), 0.2) 
 
     x = math.sqrt(2)*np.cos(t)
